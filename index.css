@@ -58,7 +58,7 @@ select {
 #colors-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 70vh auto;
+    grid-template-rows: 414px auto;
 }
 
 .hexcode {
