@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="container inputs-section">
+                <input type="color" value="#F55A5A" id="color-picker">
+                <select id="mode-selector">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="get-colors-btn">Get color scheme</button>
+            </div>
+        </header>
+        <main>
+            <div class="container" id="colors-container">
+                <div id="color-1"></div>
+                <div id="color-2"></div>
+                <div id="color-3"></div>
+                <div id="color-4"></div>
+                <div id="color-5"></div>
+            <!-- </div>
+            <div class="container hexcodes-container"> -->
+                <div class="hexcode" id="hexcode-1">#F55A5A</div>
+                <div class="hexcode" id="hexcode-2">#2B283A</div>
+                <div class="hexcode" id="hexcode-3">#FBF3AB</div>
+                <div class="hexcode" id="hexcode-4">#AAD1B6</div>
+                <div class="hexcode" id="hexcode-5">#A626D3</div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #374151;
+}
+
+/* Typography */
+
+select,
+#get-colors-btn {
+    font-family: inherit;
+    color: inherit;
+}
+
+
+#get-colors-btn,
+#colors-container {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Layout */
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.inputs-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+#color-picker {
+    width: 61px;
+    height: 40px;
+}
+
+select,
+#get-colors-btn {
+    border: 1px solid #9CA3AF;
+}
+
+select {
+    padding: 0.5em 0.8em;
+}
+
+#get-colors-btn {
+    background: white;
+    padding: 1em 0.9em;
+    cursor: pointer;
+}
+
+#colors-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 414px auto;
+    /* height: 414px; */
+}
+
+.hexcode {
+    padding: 1em 0;
+    align-self: center;
+    justify-self: center;
+}
+
+#color-1 {
+    background: #F55A5A;
+}
+
+#color-2 {
+    background: #2B283A;
+}
+
+#color-3 {
+    background: #FBF3AB;
+}
+
+#color-4 {
+    background: #AAD1B6;
+}
+
+#color-5 {
+    background: #A626D3;
+}
